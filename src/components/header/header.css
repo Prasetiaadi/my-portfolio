@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 4rem;
   overflow: hidden;
 }
 
@@ -64,13 +64,13 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 86vh;
   }
 }
 
 /* ==================== Media Queries (Small Devices) ========================= */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   header {
     height: 110vh;
   }
