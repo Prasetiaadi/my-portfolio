@@ -6,8 +6,9 @@ nav {
   z-index: 2;
   position: fixed;
   left: 50%;
+  /* top: 92%; */
   transform: translateX(-50%);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;

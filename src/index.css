@@ -14,14 +14,14 @@
   /* --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: rgba(77, 181, 255, 0.8);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6); */
 
   --color-bg: #181D31;
-  --color-bg-variant: #2B3A55;
+  --color-bg-variant: #414b5d;
   --color-primary: #678983;
-  --color-primary-variant: rgba(46, 68, 98, 0.7);
+  --color-primary-variant: rgba(70, 84, 104, 0.5);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -45,7 +45,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ==================== General styles ========================= */
@@ -134,7 +134,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
@@ -146,6 +146,6 @@ img {
   }
 
   section > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 }

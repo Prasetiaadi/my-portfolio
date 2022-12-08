@@ -29,28 +29,29 @@ footer a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .footer__socials a {
+  
   color: var(--color-white);
   background: var(--color-bg);
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .footer__socials a:hover {
-  background: transparent;
+  background: var(--color-light);
   color: var(--color-bg);
   border-color: var(--color-bg);
 }
 
 .footer__copyright {
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   color: var(--color-bg);
 }
 
@@ -62,6 +63,6 @@ footer a {
     gap: 1.5rem;
   }
   .footer__socials {
-    margin-bottom: 2.6rem;
+    margin-bottom: 2rem;
   }
 }
