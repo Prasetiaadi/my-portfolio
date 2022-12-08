@@ -38,13 +38,12 @@ const About = () => {
           </div>
 
           <p>
-            My name is Prasetia Adiprakasa. I am goal oriented to pursuing a
-            long-term career change in the frontend developer field. Have Experience in the field of
-            Project Management for 4 years and is looking for experience serious about IT "Web
-            Development". I have hands-on experience in HTML, CSS, JavaScript, React js, Node js,
-            MySQL, REST API and am proficient in developing dynamic and progressive Web applications,
-            analytical skills, project management and problem solving. Able to collaborate between
-            teams.
+            My name is Prasetia Adiprakasa. I'am pursuing a long-term career change in the frontend
+            developer. Have Experience in Project Management for 4 years and is looking for
+            experience serious about IT "frontend Developer". I have hands-on skill's in HTML, CSS,
+            Tailwind, JavaScript, React js, Node js, MySQL, REST API and am proficient in developing
+            dynamic and progressive Web applications, analytical, project management and problem
+            solving. Able to collaborate between teams.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
