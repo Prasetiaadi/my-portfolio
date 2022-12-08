@@ -12,10 +12,10 @@
   transition: var(--transition);
 }
 
-.portfolio__item:hover {
+/* .portfolio__item:hover {
   background: var(--color-primary-variant);
   background: transparent;
-}
+} */
 
 .portfolio__item-image {
   border-radius: 1.5rem;
@@ -23,14 +23,16 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.5rem 0 2rem;
 }
 
-.portfolio__item-cta {
+.portfolio__item-cta a {
   display: flex;
   gap: 1rem;
   margin: 1.2rem 0;
 }
+
+
 
 /* ==================== Media Queries (Medium Devices) ========================= */
 

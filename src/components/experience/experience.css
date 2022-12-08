@@ -6,7 +6,7 @@
 
 .experience__container > div {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 2.5rem 4rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -19,7 +19,7 @@
 
 .experience__container > div > h3 {
   text-align: center;
-  margin: 2rem;
+  margin: 1rem 2rem;
   color: var(--color-primary);
 }
 
@@ -36,6 +36,7 @@
 
 .experience__details-icon {
   margin-top: 6px;
+  margin-left: 18px;
   color: var(--color-primary);
 }
 
@@ -66,4 +67,9 @@
     width: 100%;
     padding: 2rem 1rem;
   }
+  .experience__details-icon {
+  margin-top: 6px;
+  margin-left: 16px;
+  color: var(--color-primary);
+}
 }
