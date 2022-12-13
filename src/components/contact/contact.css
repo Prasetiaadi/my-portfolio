@@ -12,17 +12,21 @@
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  background: var(--color-bg);
   padding: 1.2rem 0;
-  border-radius: 1.2rem;
+  border-radius: 0.2rem;
   text-align: center;
-  border: 1px solid transparent;
+  border: 2px solid var(--color-black);
+  box-shadow: 5px 5px black;
   transition: var(--transition);
 }
 
 .contact__option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  transform: translate(-5px, -5px);
+  box-shadow: 15px 15px black;
+  
 }
 
 .contact__option-icon {
@@ -48,7 +52,7 @@ input,
 textarea {
   width: 100%;
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;

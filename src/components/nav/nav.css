@@ -8,7 +8,8 @@ nav {
   left: 50%;
   /* top: 92%; */
   transform: translateX(-50%);
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin-top: 60%;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -29,6 +30,21 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-bg);
+  background: var(--color-bg-variant);
   color: var(--color-white);
+}
+
+
+/* ==================== Media Queries (Small Devices) ========================= */
+
+@media screen and (max-width: 600px) {
+  nav {
+    margin-top: 90vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    margin-top: 90vh;
+  }
 }

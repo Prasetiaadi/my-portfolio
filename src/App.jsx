@@ -12,8 +12,8 @@ import Experience from './components/experience/Experience';
 const App = () => {
   return (
     <>
-      <Header />
       <Nav />
+      <Header />
       <About />
       <Experience />
       <Portfolio />

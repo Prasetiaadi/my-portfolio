@@ -2,7 +2,12 @@
   max-height: 100vh;
   padding-top: 1rem;
   overflow: hidden;
-  background-image: url(../../assets/bg-texture.png);
+  color: var(--color-white);
+  background-color: var(--color-bg-variant);
+  background-image: url(../../assets/bg-dot.png);
+  /* background-position: 50%;  */
+  background-repeat: no-repeat;
+  box-shadow: 0 5px black;
 }
 
 .header__container {
@@ -28,7 +33,7 @@
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 8rem;
+  bottom: 9rem;
 }
 
 .header__socials::after {
@@ -54,11 +59,36 @@
 /* ============== Scrolll down ================ */
 .scroll__down {
   position: absolute;
-  bottom: 11rem;
+  bottom: 13rem;
   right: -2.3rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/* ==================== Media Queries (Large Devices) PC ========================= */
+
+@media screen and (min-width: 1920px) {
+  .header {
+    height: 100vh;
+  }
+
+  .header__container {
+    height: 85%;
+  }
+
+  .me > img {
+    width: 43rem;
+    height: 57rem;
+    left: calc(50% - 22rem);
+  }
+
+  /* .header__socials {
+    bottom: 10rem;
+  }
+  .scroll__down {
+    bottom: 14rem;
+  } */
 }
 
 /* ==================== Media Queries (Medium Devices) ========================= */

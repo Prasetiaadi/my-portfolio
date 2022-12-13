@@ -18,16 +18,17 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6); */
 
-  --color-bg: #181D31;
-  --color-bg-variant: #414b5d;
+  --color-bg: #FFEFD6;
+  --color-bg-variant: #181D31;
   --color-primary: #678983;
-  --color-primary-variant: rgba(70, 84, 104, 0.5);
+  --color-primary-variant: rgba(70, 84, 104);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgb(103, 103, 103);
+  --color-black: rgb(0, 0, 0);
 
-  --transition: all 700ms ease;
+  --transition: all 300ms ease;
 
-  --container-width-lg: 75%;
+  --container-width-lg: 73%;
   --container-width-md: 89%;
   --container-width-sm: 90%;
 }
@@ -43,8 +44,9 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: var(--color-black);
   line-height: 1.7;
+
   /* background-image: url(../src/assets/bg-texture.png); */
 }
 
@@ -54,6 +56,8 @@ body {
   max-width: var(--container-width-lg);
   margin: 0 auto;
   padding: 0 1rem;
+  
+
 }
 
 h1,
@@ -62,26 +66,29 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+
 }
 
 section {
   margin-top: 8rem;
+  
 }
 
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-black);
+  
 }
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light {
@@ -94,7 +101,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .btn {
@@ -102,28 +109,41 @@ a:hover {
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.5rem;
-  border-radius: 0.4rem;
+  border-radius: 0.1rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 2px solid var(--color-black);
   transition: var(--transition);
 }
 
 .btn:hover {
   background: var(--color-primary);
-  color: var(--color-white);
+  color: var(--color-black);
   border-color: transparent;
+  box-shadow: 3px 4px black;
 }
 
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
-  border-color: transparent;
+  border-color: black;
 }
 
 img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+/* ==================== Media Queries (Large Devices) ========================= */
+
+@media screen and (max-width: 1920px) {
+  .container {
+    max-width: var(--container-width-lg);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
 }
 
 /* ==================== Media Queries (Medium Devices) ========================= */
@@ -134,7 +154,7 @@ img {
   }
 
   section {
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 }
 
