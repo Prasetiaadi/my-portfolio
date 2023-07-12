@@ -19,7 +19,7 @@
   --color-light: rgba(255, 255, 255, 0.6); */
 
   --color-bg: #FFEFD6;
-  --color-bg-variant: #181D31;
+  --color-bg-variant: #2a3355;
   --color-primary: #678983;
   --color-primary-variant: rgba(70, 84, 104);
   --color-white: #fff;
@@ -75,7 +75,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
   
 }
 
@@ -136,13 +136,13 @@ img {
 
 /* ==================== Media Queries (Large Devices) ========================= */
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1200px) {
   .container {
     max-width: var(--container-width-lg);
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
@@ -154,7 +154,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
